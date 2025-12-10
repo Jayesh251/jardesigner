@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+backend/moose/
+venv/
+env/
+ENV/
+
+# Frontend
+node_modules/
+frontend/.vite/
+.vite/
+
+# Generated frontend (can be rebuilt)
+jardesigner/server/static/
+
+# Runtime files
+backend/temp_configs/
+backend/user_uploads/
+backend/simulation_plots/*.png
+backend/simulation_plots/*.svg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

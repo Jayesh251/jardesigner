@@ -1,6 +1,6 @@
 import sys
 
-from jardesigner.jardesigner import main
+from jardesigner._jardesigner import main
 
 if __name__ == "__main__":
     # This runs the main function from your package

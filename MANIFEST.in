@@ -1,0 +1,24 @@
+# Include frontend built files
+recursive-include jardesigner/server/static *
+
+# Include schema files
+include jardesigner/*.json
+
+# Include CHEM_MODELS
+recursive-include jardesigner/CHEM_MODELS *
+
+# Include documentation
+include README.md
+include backend/requirements.txt
+
+# Exclude unnecessary files
+recursive-exclude * __pycache__
+recursive-exclude * *.pyc
+recursive-exclude * *.pyo
+recursive-exclude * .DS_Store
+recursive-exclude * *.so
+exclude .gitignore
+prune frontend/node_modules
+prune backend/moose
+prune backend/temp_configs
+prune backend/user_uploads
